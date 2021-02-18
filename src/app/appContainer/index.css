@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.app-box {
+  z-index: 10;
+  position: absolute;
+  top: 200px;
+  left: 210px;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.app-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+}
+
+.app-box .entity-box {
+  position: relative;
+}
+
+.app-box .entity-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.app-box .entity-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.app-box .entity-box input:focus ~ label,
+.app-box .entity-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.app-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+.app-box a:hover {
+  background: #688d3c;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #688d3c, 0 0 5px #688d3c, 0 0 10px #688d3c,
+    0 0 20px #688d3c;
+}
+
+.app-box a span {
+  position: absolute;
+  display: block;
+}
