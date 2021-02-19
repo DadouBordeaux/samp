@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { entityAdapter } from "./core";
 import { searchCity } from "./fetching";
-import "./index.css";
+import "./styles.css";
 
 export default function AppContainer({ setEntity }) {
   const [entityName, setEntityName] = useState("");

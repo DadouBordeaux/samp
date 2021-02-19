@@ -1,7 +1,6 @@
 # TL;DR;
 
-`npm run start`
-Navigate to `localhost:8080`.
+`npm run start` And navigate to `localhost:8080`.
 
 # cesium-webpack-example
 

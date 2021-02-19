@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Viewer, Entity } from "resium";
 import { Cartesian3 } from "cesium";
 
-import "./index.css";
+import "./styles.css";
 import { formatDescription } from "./core";
 
 const PIXEL_HEIGHT = 100;
